@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio-Alura</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu"> 
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digitar a outro nível!
@@ -18,12 +23,20 @@
                 Ajudo pequenos negócios e designers a colocarem 
                 em prática boas ideias. Vamos conversar?</p>
             <div class="apresentacao__conteudo__links">
-                <a class="apresentacao__conteudo__links__link" href="https://github.com/LaguiostaDev?tab=repositories">Github</a>
-                <a class="apresentacao__conteudo__links__link" href="https://www.linkedin.com/in/adriano-augusto-de-oliveira-43856619a/">Linkedin</a>
+                <a class="apresentacao__conteudo__links__link" href="https://github.com/LaguiostaDev?tab=repositories">
+                    <img class="apresentacao__conteudo__links__link__icone" src="./assets/Logo Github.png" alt="ícone do Github">
+                    Github
+                </a>
+                <a class="apresentacao__conteudo__links__link" href="https://www.linkedin.com/in/adriano-augusto-de-oliveira-43856619a/">
+                    <img class="apresentacao__conteudo__links__link__icone" src="./assets/Logo linkedin.png" alt="Ícone do Linkedin">
+                    Linkedin
+                </a>
             </div>
         </section>
-        <img class="foto" src="imagem.jpg" alt="Foto do Adriano">
+        <img class="foto" src="./assets/imagem.jpg" alt="Foto do Adriano">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p class="rodape__texto">Desenvolvido por Adriano Augusto</p>
+    </footer>
 </body>
 </html>
